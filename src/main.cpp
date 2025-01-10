@@ -19,5 +19,7 @@ int main(int argc, char const *argv[])
 		std::cout<<i;
 	}
 
+	std::cout<<"Fine programma. Exit\n";
+
 	return 0;
 }
