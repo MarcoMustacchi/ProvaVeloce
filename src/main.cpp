@@ -20,6 +20,6 @@ int main(int argc, char const *argv[])
 	}
 
 	std::cout<<"Fine programma. Exit\n";
-
+	
 	return 0;
 }
