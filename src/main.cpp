@@ -19,6 +19,12 @@ int main(int argc, char const *argv[])
 		std::cout<<i;
 	}
 
+	int b = 10;
+	int c = 5;
+
+	int d = b + c;
+	std::cout<<"somma di b e c: "<<d<<"\n";
+
 	std::cout<<"Fine programma. Exit\n";
 	
 	return 0;
