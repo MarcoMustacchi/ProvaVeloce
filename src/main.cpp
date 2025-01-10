@@ -2,8 +2,8 @@
 
 int somma(int n1, int n2)
 {
-	int n3 = n1+n2;
-	return n3;
+	int n = n1+n2;
+	return n;
 }
 
 int main(int argc, char const *argv[])
@@ -30,9 +30,12 @@ int main(int argc, char const *argv[])
 
 	int d = b + c;
 	std::cout<<"somma di b e c: "<<d<<"\n";
-
+	
 	int e = somma(b,c);
 	std::cout<<"somma di b e c con funzione: "<<e<<"\n";
+
+	int f = somma(d,c);
+	std::cout<<"somma di d e c con funzione: "<<f<<"\n";
 
 	std::cout<<"Fine programma. Exit\n";
 	
