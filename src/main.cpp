@@ -37,6 +37,9 @@ int main(int argc, char const *argv[])
 	int f = somma(d,c);
 	std::cout<<"somma di d e c con funzione: "<<f<<"\n";
 
+	int g = somma(f,c);
+	std::cout<<"somma di f e c con funzione: "<<g<<"\n";
+
 	std::cout<<"Fine programma. Exit\n";
 	
 	return 0;
