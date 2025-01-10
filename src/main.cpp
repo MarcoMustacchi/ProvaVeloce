@@ -12,5 +12,12 @@ int main(int argc, char const *argv[])
 		a = 2;
 	}
 
+	std::cout<<"Il valore nuovo di a: "<<a<<"\n";
+
+	std::cout<<"Conta fino a dieci\n";
+	for (int i = 0; i < 10; ++i) {
+		std::cout<<i<<"\n";
+	}
+
 	return 0;
 }
