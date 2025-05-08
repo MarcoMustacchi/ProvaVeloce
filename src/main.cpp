@@ -48,5 +48,7 @@ int main(int argc, char const *argv[])
 	std::cout<<"Modifica nuova da parte di Enigmala\n";
 	std::cout<<"Modifica nuova da parte di Enigmala\n";
 
+	std::cout<<"Riga finale ENIGMala\n";
+
 	return 0;
 }
