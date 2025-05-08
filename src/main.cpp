@@ -43,6 +43,8 @@ int main(int argc, char const *argv[])
 	std::cout<<"Somma finale: "<<a+b+c+d+e+f<<"\n";
 	
 	std::cout<<"Fine programma. Chiusura programma. Exit\n";
+
+	std::cout<<"Modifica da parte di Enigmala\n";
 	
 	return 0;
 }
